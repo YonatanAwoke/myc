@@ -16,7 +16,8 @@
     <h3>contact us</h3>
     <table >
         <tr>
-            <td><table>
+            <td>
+                <table>
                 <tr>
                     <td><form method="POST" action="mailto:yonatanawoke@gmail.com" enctype="utf-8"></form> <div>
                         <label for="firstname">First Name: </label></td>
@@ -24,7 +25,7 @@
                             pattern="[a-z]{4,8}" title="4 to 8 lowercase letters">
                      <span class="validity"></span></td>
                 </tr>
-                <tr><td><p>First names must be lowercase and 4-8 characters in length.</p>
+                <tr><td>
                 </div></td></tr>
                 <tr>
                     <td><div>
@@ -32,7 +33,7 @@
                         <td><input type="text" id="secondname" name="secondname" required size="45"
                             pattern="[a-z]{4,8}" title="4 to 8 lowercase letters">
                      <span class="validity"></span></td>
-                     <tr><td> <p>Second names must be lowercase and 4-8 characters in length.</p>
+                     <tr><td>
                      </div></td></tr>
                      <tr>
                          <td><label for="">Date of Birth: </label></td>
@@ -56,33 +57,26 @@
                      </tr>
                      <tr>
                          <td><label for="">Phone number:</label></td>
-                         <td><input type="tel" id="tel" name="tel"><br><br></td>
-                     </tr>
-                     <tr>
-                         <td><label for="">Personal Website:</label></td>
-                         <td><input type="url" id="url" name="url"><br><br></td>
+                         <td><input type="tel" id="tel" name="tel" pattern="[7-9]{1}[0-9]{9}"><br><br></td>
                      </tr>
                      <tr>
                          <td> what do you say?<br><br>
                          <textarea name="comment" id="" cols="30" rows="10"></textarea><br><br></td>
                      </tr>
                      <tr>
-                         <td><label for="price">Please rate our website</label><br><br></td>
-                         <td><input type="range" name="price" id="price" min="0" max="10" step="1" value="5">
-                            <output class="price-output" for="price"></output> 10<br><br></td>
+                         <td><label for="price">Choose a maximum house price: </label>
+                         <td><input type="range" name="price" id="price" min="0" max="10" step="1" value="5"> 10</td>
+                         <output class="price-output" for="price"></output></td>
                      </tr>
-                     <tr><td><input type="submit" value="Submit"><br><br>
-        
-        
-       
-                     </form></td></tr>
-                </tr>
-            </tr>
-                    
+                     
                 
+                     <tr><td><input type="submit" value="Submit"><br><br>
+                    </form></td>
+                </tr>
             </table>
+        </td>
             <td><div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=addis%20ababa&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.enable-javascript.net/blog/divi-discount/">elegant themes gallery divi</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></td>
-        </tr>
+    </tr>
    
     </table>
     <hr>
