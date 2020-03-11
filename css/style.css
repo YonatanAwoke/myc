@@ -1,0 +1,60 @@
+body{
+    margin: 10px;
+    padding: 5px 30px;
+    background-color: slategray;
+   
+}
+header{
+    color:salmon;
+    position: fixed;
+    background-color: seagreen;
+    width: 100%;
+}
+nav ul li{
+    
+    display: inline;
+    position: static;
+    padding: 10px 5px;
+    font-size: 15px;
+
+}
+nav ul li:hover{
+    background-color: turquoise;
+}
+nav ul li a{
+    text-decoration: none;
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 30px;
+    margin-top: 50px;
+    
+   
+}
+article{
+    text-align: justify;
+    font-size: 15px;
+    line-height: 25px;
+}
+.title{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+    
+}
+.date{
+    font-style: italic;
+    color: tan;
+    text-transform: uppercase;
+}img{
+    float: right;
+    width: 30%;
+    margin-left: 1.6%;
+}
+#myname{
+    text-align: center;
+    width: 100%;
+    border-bottom: solid sandybrown 2px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
