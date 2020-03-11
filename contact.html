@@ -19,10 +19,10 @@
             <td>
                 <table>
                 <tr>
-                    <td><form method="POST" action="mailto:yonatanawoke@gmail.com" enctype="utf-8"></form> <div>
+                    <td><form method="POST" action="mailto:yonatanawoke@gmail.com" enctype="utf-8"> <div>
                         <label for="firstname">First Name: </label></td>
-                        <td> <input type="text" id="firstname" name="firstname" required size="45"
-                            pattern="[a-z]{4,8}" title="4 to 8 lowercase letters">
+                        <td> <input type="text" id="firstname" name="firstname" required size="25"
+                            pattern="[a-z]{2,20}" title="minimum 2 characters" minlength="2">
                      <span class="validity"></span></td>
                 </tr>
                 <tr><td>
@@ -30,8 +30,8 @@
                 <tr>
                     <td><div>
                         <label for="secondname">Second Name:  </label></td>
-                        <td><input type="text" id="secondname" name="secondname" required size="45"
-                            pattern="[a-z]{4,8}" title="4 to 8 lowercase letters">
+                        <td><input type="text" id="secondname" name="secondname" required size="25"
+                            pattern="[a-z]{2,20}" title="4 to 8 lowercase letters" minlength="2">
                      <span class="validity"></span></td>
                      <tr><td>
                      </div></td></tr>
@@ -45,7 +45,7 @@
                      </tr>
                      <tr>
                          <td><label for="">Password</label></td>
-                         <td><input type="password" id="password" name="password"><br><br></td>
+                         <td><input type="password" id="password" name="password" minlength="8" title="minimum length of eight digits"><br><br></td>
                      </tr>
                      <tr>
                          <td> country:</td>
@@ -57,14 +57,15 @@
                      </tr>
                      <tr>
                          <td><label for="">Phone number:</label></td>
-                         <td><input type="tel" id="tel" name="tel" pattern="[7-9]{1}[0-9]{9}"><br><br></td>
+                         <td><input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{6}"
+                            required title="format 251-456-789012"><br><br></td>
                      </tr>
                      <tr>
                          <td> what do you say?<br><br>
                          <textarea name="comment" id="" cols="30" rows="10"></textarea><br><br></td>
                      </tr>
                      <tr>
-                         <td><label for="price">Choose a maximum house price: </label>
+                         <td><label for="price">Please Rate Us: </label>
                          <td><input type="range" name="price" id="price" min="0" max="10" step="1" value="5"> 10</td>
                          <output class="price-output" for="price"></output></td>
                      </tr>
