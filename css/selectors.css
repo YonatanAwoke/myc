@@ -1,0 +1,74 @@
+/* Style the HTML elements according to the following instructions. 
+DO NOT ALTER THE EXISTING HTML TO DO THIS.  WRITE ONLY CSS! */
+
+body{
+    
+    background-color: #bdc3c7;
+}
+h1{
+    color: #9b59b6;
+}
+h2{
+    color: orange;
+
+}
+div ul li{
+    color: blueviolet;
+}
+body p{
+    color: yellow;
+}
+input{
+    border: 3px red solid;
+}
+.hello{
+    background-color: white;
+}
+#special{
+    border: rgb(53, 53, 255) solid 2px;
+}
+div p{
+    font-size: 25px;
+}
+input[type=text]:focus{
+    background-color: grey;
+}
+div em{
+    color: white;
+    font-size: 20px;
+}
+
+
+/* Give both <p>'s inside the 3rd <div> a pink background*/
+
+
+/* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
+
+
+
+
+
+
+/*BONUS CHALLENGES*/
+/*You may need to research some other selectors and properties*/
+
+input[type=checkbox]:checked{
+    margin-left: 50px;
+}
+label{
+    text-transform: uppercase;
+}
+#special .position-tester p::first-letter{
+    font-size: 100px;
+   
+}
+h1:hover{
+    color: lightcoral;
+}
+a:visited{
+    color: gray;
+}
+/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
+
+
+
