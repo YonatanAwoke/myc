@@ -1,0 +1,27 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightskyblue;
+   
+}
+header{
+    color:firebrick;
+    position: fixed;
+    background-color:tan;
+    width: 100%;
+}
+nav ul li{
+    
+    display: inline;
+    position: static;
+    padding: 10px 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+
+}
+nav ul li:hover{
+    background-color: turquoise;
+}
+nav ul li a{
+    text-decoration: none;
+}
