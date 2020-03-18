@@ -2,3 +2,64 @@ h1{
     text-align: center;
     text-decoration: black;
 }
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 200px;
+    height: 50px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    margin-right: 100px;
+}
+.first{
+    float: left;
+}
+.second{
+    float: left;
+}
+.top{
+    background: green;
+}
+.between{
+    background: yellow;
+}
+.bottom{
+    background: red;
+}
+#top{
+    background: blue;
+    width: 40px;
+}
+#topright{
+    background: white;
+    
+}
+#between{
+    background: red;
+    width: 100px;
+}
+#betweenright{
+    background: red;
+}
+.toparme{
+    background:red;
+}
+.betarme{
+    background: blue;
+}
+.bottarme{
+    background: tomato;
+}
+.france{
+    width: 200px;
+    height: 180px;
+}
+.fratop{
+    background: blue;
+}
+.frabet{
+    background: white;
+}
+.frabott{
+    background: red;
+}
