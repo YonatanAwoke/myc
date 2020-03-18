@@ -1,13 +1,13 @@
 body{
     margin: 10px;
     padding: 5px 30px;
-    background-color: slategray;
+    background-color: rgb(228, 129, 211);
    
 }
 header{
-    color:salmon;
+    color:rgb(190, 16, 98);
     position: fixed;
-    background-color: seagreen;
+    background-color: rgb(125, 240, 18);
     width: 100%;
 }
 nav ul li{
@@ -33,7 +33,7 @@ section{
 }
 article{
     text-align: justify;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 25px;
 }
 .title{
@@ -44,7 +44,7 @@ article{
 }
 .date{
     font-style: italic;
-    color: tan;
+    color: rgb(72, 241, 185);
     text-transform: uppercase;
 }img{
     float: right;
