@@ -9,6 +9,7 @@ header{
     position: fixed;
     background-color:tan;
     width: 100%;
+    text-align: center;
 }
 nav ul li{
     display: inline;

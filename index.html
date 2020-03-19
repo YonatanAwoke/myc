@@ -7,13 +7,21 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <title>Yonatan Awoke CV</title>
     <link rel="shortcut icon" type="image/png" href="./image/favicon.ico">
+    <link rel="stylesheet" href="css/styleindex.css">
 </head>
 <body>
-    <hr>
-    <a href="index.html">Home</a> |
-    <a href="contact.html">Contact</a> | <a href="Gallery.html">Gallery</a>&nbsp; &nbsp;<input type="search" id="search" name="search"> Search
-    <hr>
-    <table>
+    <div class="wrapper">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+   
+    <div class="main">  
+    <table class="first">
         <tr>
             <td><img height="400" src="./image/photo-of-man-sitting-on-wooden-chair-3617660.jpg" alt="manchester united profile image"></td>
             <td> <h1>Yonatan Awoke</h1>
@@ -21,11 +29,11 @@
                 <p>I am an IT engineering student. and I live in Gerji. I will gradute in 2022. </p></td>
         </tr>
     </table>
-    <hr>
+
     <h3>Hobbies and interests</h3>
-    <ul>
+    <ul class="ulist">
         <li>sport
-            <ul>
+            <ul class="sulist">
                 <li>i like watching football</li>
                 <li>i like watching tennis</li>
             </ul>
@@ -43,12 +51,12 @@
         </li>
     
     </ul>
-<hr>
+
 
 <!-- creating a table with 2 row and two columns including images -->
-<hr>
-<h3>work experience</h3>
-<table cellspacing="10">
+
+<table cellspacing="10" >
+    <h3>work experience</h3>
     <tr>
         <th>date</th>
         <th>job title</th>
@@ -63,8 +71,9 @@
     </tr>
     
 </table>
-<h3>top skills</h3>
-<table cellspacing="10">
+
+<table cellspacing="10" class="two">
+    <h3>top skills</h3>
 <tr>
    <td>java and python programming</td>
    <td>⭐⭐⭐⭐⭐</td>
@@ -78,15 +87,18 @@
 
 
 
-<hr>
-<a href="" target="_blank">Facebook</a>&nbsp;&nbsp;&nbsp;
-<a href="" target="_blank">Google</a>&nbsp;&nbsp;&nbsp;
-<a href="" target="_blank">Instagram</a>
+<div class="social">
+    <a href="" target="_blank">Facebook</a>&nbsp;&nbsp;&nbsp;
+    <a href="" target="_blank">Google</a>&nbsp;&nbsp;&nbsp;
+    <a href="" target="_blank" >Instagram</a>
+</div>
 
-<hr>
 
-<p align="center">Developed by Yonatan Awoke &copy;2020</p>
-<hr>
+
+
+<p align="center" class="para">Developed by Yonatan Awoke &copy;2020</p>
+
+</div>
 </body>
 
 </html>
