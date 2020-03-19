@@ -1,3 +1,8 @@
+body{
+    background-image: url(image/person-with-body-painting-1209843.jpg);
+    padding: 5px 5px;
+    margin: 10px;
+}
 h1{
     text-align: center;
     text-decoration: black;
@@ -8,13 +13,19 @@ table,tr,td{
     width: 200px;
     height: 50px;
     padding-bottom: 10px;
-    padding-right: 10px;
-    margin-right: 100px;
+    padding-right: 30px;
+    margin-right: 170px;
 }
 .first{
     float: left;
 }
 .second{
+    float: left;
+}
+.third{
+    float: left;
+}
+.fourth{
     float: left;
 }
 .top{
@@ -61,5 +72,87 @@ table,tr,td{
     background: white;
 }
 .frabott{
+    background: red;
+}
+.topindo{
+    background: red;
+}
+.bottindo{
+    background: white;
+}
+.topger{
+    background: black;
+}
+.betger{
+    background: red;
+}
+.bottger{
+    background: yellow;
+}
+.ireland{
+    width: 200px;
+    height: 180px;
+}
+.topire{
+    background: green;
+}
+.betire{
+    background: white;
+}
+.bottire{
+    background: rgb(255, 136, 0);
+}
+.topukr{
+    background:rgb(25, 186, 235);
+}
+.bottukr{
+    background: yellow;
+}
+.topcol{
+    background: yellow;
+}
+.betcol{
+    background: blue;
+}
+.bottcol{
+    background: red;
+}
+.yemen{
+    width: 200px;
+    height: 180px;
+}
+.topyem{
+    background: red;
+}
+.betyem{
+    background: white;
+}
+.bottyem{
+    background: black;
+}
+.belguim{
+    width: 200px;
+    height: 120px;   
+}
+.topbel{
+    background: black;
+}
+.betbel{
+    background: yellow;
+}
+.bottbel{
+    background: red;
+}
+.italy{
+    width: 200px;
+    height: 180px;
+}
+.topita{
+    background: green;
+}
+.betita{
+    background: white;
+}
+.bottita{
     background: red;
 }

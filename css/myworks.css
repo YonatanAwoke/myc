@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
     background-color: lightskyblue;
-   
+    
 }
 header{
     color:firebrick;
@@ -11,17 +11,21 @@ header{
     width: 100%;
 }
 nav ul li{
-    
     display: inline;
     position: static;
     padding: 10px 5px;
     font-size: 15px;
     text-transform: uppercase;
-
 }
 nav ul li:hover{
     background-color: turquoise;
 }
 nav ul li a{
     text-decoration: none;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 60, 0);
 }
