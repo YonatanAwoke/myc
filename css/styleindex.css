@@ -55,6 +55,10 @@ nav ul a{
     order: 2;
     justify-content: space-evenly;
 }
+.one{
+    display: flex;
+    flex: 1;
+}
 .two{
     border-bottom: gold solid 1px;
 }
@@ -65,4 +69,7 @@ nav ul a{
 }
 .para{
     border-bottom: solid rgb(135, 165, 248) 2px;
+}
+.gall{
+    border-bottom: gold solid 1px;
 }
