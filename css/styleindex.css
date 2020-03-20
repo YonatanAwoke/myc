@@ -10,6 +10,7 @@ nav ul{
     list-style-type: none;
     padding: 0;
     border-bottom: grey solid 1px;
+   
     
 }
 nav ul li:hover{
@@ -20,6 +21,7 @@ nav ul a{
     color: rgb(255, 0, 200);
     display: block;
     padding: 10px;
+
 }
 @media screen and (min-width:768px){
     nav ul{
