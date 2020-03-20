@@ -37,17 +37,13 @@ div em{
     color: white;
     font-size: 20px;
 }
+div:nth-of-type(3) p {
+    background-color: pink;
+}
 
-
-/* Give both <p>'s inside the 3rd <div> a pink background*/
-
-
-/* Give the 2nd <p> inside the 3rd <div> a 5px white border*/
-
-
-
-
-
+div:nth-of-type(3)  > p:nth-of-type(2) {
+    border: 5px white solid;
+}
 
 /*BONUS CHALLENGES*/
 /*You may need to research some other selectors and properties*/
@@ -68,7 +64,11 @@ h1:hover{
 a:visited{
     color: gray;
 }
-/*Make the first letter of the element with id 'special' green and 100px font size(font-size: 100)*/
+#special::first-letter {
+    color: green;
+    font-size: 100px;
+}
+
 
 
 

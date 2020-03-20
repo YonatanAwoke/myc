@@ -1,5 +1,5 @@
 body{
-    background-image: url(image/person-with-body-painting-1209843.jpg);
+    background-color: thistle;
     padding: 5px 5px;
     margin: 10px;
 }
@@ -29,13 +29,13 @@ table,tr,td{
     float: left;
 }
 .top{
-    background: green;
+    background:red;
 }
 .between{
-    background: yellow;
+    background: white;
 }
 .bottom{
-    background: red;
+    background:blue;
 }
 #top{
     background: blue;

@@ -1,3 +1,6 @@
+body{
+    background-color: thistle;
+}
 .wrapper{
     width: 100%;
     max-width: 960px;
@@ -14,7 +17,7 @@ nav ul li:hover{
 }
 nav ul a{
     text-decoration: none;
-    color: rgb(248, 211, 0);
+    color: rgb(193, 36, 255);
     display: block;
     padding: 20px;
 }
@@ -35,4 +38,13 @@ nav ul a{
 .first{
     display: flex;
     justify-content: space-between;
+    border-bottom: yellow solid 1px;
+}
+.social{
+    border-bottom: solid seagreen 2px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.para{
+    border-bottom: solid rgb(135, 165, 248) 2px;
 }
